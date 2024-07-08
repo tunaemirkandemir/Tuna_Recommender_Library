@@ -1,0 +1,63 @@
+
+#TODO list
+veri alınacak 
+    - OK alınabiliyor ve pd.DataFrame olarak çıkarılıyor
+label encoderler çalışacak
+    - OK yapıldı 
+train test split yapılıp ayrılacak 
+    - OK yapıldı hatta üsttekiyle aynı fonksiyona bağlandı ve iş akışında rahatlık sağlandı
+interaction dataseti train ve test olarak initialize edilecek ve sonra dataloader olarak çıkarılacak 
+    - BU daha yapılmadı ama data_entries dosyasına bir fonksiyon konulup ikisi birleştirilmeli batch sizeı 
+    bir input olarak almalı interaction datasetinnden ayrı bir yerde durmalı
+model datasetine sokulacak 
+    -
+model train edilecek 
+    - 
+evalution yapılacak 
+    - 
+prediction yapılacak
+    -
+
+
+#data input and output örnek loadpandasdf gibi veriyi koyacak filesa dosyadan çekecek headerlar array olarak algılanacak 
+# OK DEĞİL AMA bitmek üzere
+#==============================================================
+#bir dataset classı oluşturacak ve bunun fonksiyonları  ve özellikleri olacak .num_col diyip col sayısı alınacak
+#BUNA DA ÇOKÇAA ŞEY EKLENEBİLİR
+#====================================================================
+#farklı model tipleri olabilmeli bunların hibrid veya collaborative olmasıyla alakası yok . kombinlenebilirler bu açıdan
+'''
+collaborative
+    matrix factorization
+        SVD
+        ALS
+    neighbor-based
+        KNN
+    neural collaborative filtering
+        neural collaborative filtering
+    
+hybrid
+    deep learning
+        wide & deep # Model hazır dataseti yapılıyor
+        xdeepFM
+        DKN
+    gradient boosting algorithm
+        LightGBM
+    
+
+I CAN MAKE ENSEMBLE MODELS (THEY STACK UP SOME MODELS ON TOP OF EACH OTHER (BOOSTİNG YANİ))
+
+
+'''#gibi bu modelleri oluşturacak ve kullanıcı bunları konfigüre edebilecek kolayca
+#bunların fit diye fonksiyonları vardır
+#nasıl olur bilmiyorum ama encode ve scale edilebilmei parametreleri bunlar da ayarlanabilir
+
+
+#datayı splitlemek için fonksiyon özelleştirilebilmeli 
+#kronolojik split falan timestamp varsa onu bulmalı veya pandas veya sklearnde garip spllit ve testler için bölme şekilleri vardı ya onlardan
+#veriyi dosyadan yükledi mi data diye bi değişkene mesela her bir sütuna data.sütunadı diye ulaşabilmeli.
+
+
+
+
+

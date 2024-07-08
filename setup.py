@@ -8,10 +8,10 @@ setup(
         'numpy',
         'pandas',
         'scikit-learn',
-        # add other dependencies here
+        'torch',
     ],
     description='A Python library for creating neural recommender systems',
-    author='Tuna Emir Kandemir',
+    author='tunaemirkandemir',
     author_email='tunakandemir@gmail.com',
-    url='https://github.com/yourusername/recommender_systems',  # update with your URL
+    url='https://github.com/tunaemirkandemir/Tuna_Recommender_Library.git',  
 )
